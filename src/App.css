@@ -2,6 +2,7 @@
 
 :root {
   --stickynote-font: 'Handlee', script; 
+  --lorem-academy-color: rgb(58, 5, 235); 
 }
 
 
@@ -26,4 +27,13 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.c_flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.d_flex {
+  display: flex;
 }

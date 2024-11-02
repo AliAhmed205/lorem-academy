@@ -62,6 +62,14 @@
     }
   }
 
+  .error-message {
+    color: darkred;
+    font-size: .8rem;
+    opacity: 1;
+    margin: 1rem 0 0;
+    animation: fadeIn .5s ease-in-out backwards;
+  }
+
   & button {
     width: fit-content;
     padding: .5rem 1rem;
@@ -71,3 +79,4 @@
     border: none;
   }
 }
+

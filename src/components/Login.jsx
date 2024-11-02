@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, createElement } from "react";
 import "../css/Login.css";
 
 const Login = () => {
 
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+  const [errorMessage, setErrorMessage] = useState("")
 
   const correctLogin = () =>{
     if (email === "peter@lorem-academy.nl" && password === "ditiseensterkwachtwoord") {
-      alert("Inloggen geslaagd!");
-    } else {
-      alert("Inloggen mislukt. Controleer je e-mailadres en wachtwoord.");
+        alert("Inloggen geslaagd!");
+        setErrorMessage('')
+    } else if (email === 'peter@lorem-academy.nl' && !password) {
+      setErrorMessage('Vul een wachtwoord in.')
+    }
+    else {
+      setErrorMessage('Inloggen mislukt. Controleer je e-mailadres en wachtwoord.')
     }
   }
 
@@ -23,6 +28,7 @@ const Login = () => {
         </h1>
         <h2>Teacher</h2>
         <h3>Login met je Lorem Academy e-mailadres</h3>
+        {errorMessage && <p className="error-message">{errorMessage}</p>}
         <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="Lorem Academy e-mailadress" />
         <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} name="" id="" placeholder="Wachtwoord" />
         <button type="button" onClick={correctLogin} >Login</button>

@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 const StickyNote = () =>{
+  const [crossedTodo, setCrossTodo] = useState(false)
+
+  const strikeThrough = () =>{
+    setCrossTodo(crossedTodo => !crossedTodo)
+  }
+
   return (
     <>
-    <h1>Test</h1>
+    <section className="sticky-note">
+     <p onClick={strikeThrough}><span className={crossedTodo ? "strike" : " "}>is what I want to strike out</span></p>
+    </section>
     </>
   )
 }

@@ -6,6 +6,8 @@
     left: 100px;
     transition: .5s;
 
+    z-index: 99;
+
   & div {
     width: 200px;
     height: 30px;

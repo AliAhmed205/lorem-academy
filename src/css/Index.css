@@ -1,6 +1,9 @@
 .index-container {
   animation: fadeIn 1s .5s backwards;
   opacity: 1;
+  overflow-y: hidden;
+  position: relative;
+
 
   & img {
     width: 1200px;

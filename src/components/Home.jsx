@@ -1,10 +1,9 @@
 import React from "react";
-import StickyNote from "./StickyNote";
 
 const Home = () =>{
   return (
     <>
-  <StickyNote />
+    <h1>Home</h1>
     </>
   )
 }

@@ -1,4 +1,5 @@
-import React, { useState, createElement } from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../css/Login.css";
 
 const Login = () => {
@@ -6,11 +7,12 @@ const Login = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [errorMessage, setErrorMessage] = useState("")
+  
+  const navigeer = useNavigate();
 
   const correctLogin = () =>{
     if (email === "peter@lorem-academy.nl" && password === "ditiseensterkwachtwoord") {
-        alert("Inloggen geslaagd!");
-        setErrorMessage('')
+        navigeer("/home")
     } else if (email === 'peter@lorem-academy.nl' && !password) {
       setErrorMessage('Vul een wachtwoord in.')
     }

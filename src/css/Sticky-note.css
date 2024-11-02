@@ -1,0 +1,45 @@
+.sticky-note-container {
+    width: fit-content;
+    position: absolute;
+
+    bottom: -200px;
+    left: 100px;
+    transition: .5s;
+
+  & div {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(173, 216, 230, 0.5);
+    transform: translateY(10px);
+  }
+
+ & .sticky-note {
+    background-color: rgb(255, 253, 148);
+    aspect-ratio: 1/1;
+    font-family: var(--stickynote-font); 
+
+    padding: 1rem;
+    width: 15rem;
+    color: black;
+
+    & h1 {
+      font-size: 2rem;
+    }
+
+    & p {
+      position: relative;
+      width: 100%;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    & p.done {
+      text-decoration: line-through;
+    }
+  }
+}
+
+.sticky-note-container.show {
+  bottom: 0px;
+  left: 100px;
+}

@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --stickynote-font: 'Handlee', script; 
   --lorem-academy-color: rgb(58, 5, 235); 
+  --lorem-academy-focus: rgb(58, 5, 235, .2); 
+  --lorem-academy-font: 'Tinos'
 }
 
 

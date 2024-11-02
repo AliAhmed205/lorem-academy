@@ -1,22 +1,52 @@
 .login-container {
   width: fit-content;
+  padding: 3rem;
   margin: auto;
+  height: 100vh;
+  max-width: 415px;
+  min-width: 500px;
+  background-color: ghostwhite;
+  position: absolute;
+  right: 0;
+  transition: .5s;
+
+  & h1, h2 {
+    font-family: var(--lorem-academy-font);
+  }
 
   & h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--lorem-academy-color);
   }
 
   & h2 {
+    margin-left: auto;
+    margin-right: 2rem;
+    line-height: 1rem;
+  }
+
+  & h3 {
     width: 70%;
     margin: 3rem 0 0 0;
     font-weight: 400;
   }
 
+  & p {
+    opacity: .4;
+    font-weight: 300;
+  }
+  
+
   & input {
     padding: .5rem;
-    width: 60%;
+    width: 100%;
+    border: solid var(--lorem-academy-color) 1px;
     margin-bottom: 1rem;
+    transition: .2s;
+
+    &:focus {
+      background-color: var(--lorem-academy-focus);
+    }
 
     &:nth-of-type(1) {
       margin-top: 1rem;

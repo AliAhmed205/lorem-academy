@@ -1,7 +1,35 @@
 .index-container {
+  animation: fadeIn 1s .5s backwards;
+  opacity: 1;
+
   & img {
-    width: 1000px;
+    width: 1200px;
     height: 100vh;
     object-fit: cover;
+    object-position: bottom;
   }
+}
+
+@media screen and (max-width: 499px) {
+  .index-container {
+    & img {
+      display: none;
+    }
+
+    & .login-container {
+      width: 100%;
+      min-width: 100%;
+      padding: 1rem;
+
+      & h1 {
+        font-size: 2.9rem;
+        margin-top: 40%;
+      }
+
+      & p {
+        margin-bottom: auto;
+      }
+    }
+  }
+  
 }

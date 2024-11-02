@@ -1,15 +1,22 @@
 import React from "react";
-import "../css/Login.css"
+import "../css/Login.css";
 
 const Login = () => {
   return (
     <>
       <section className="login-container c_flex">
-        <h1><i className="fa fa-solid fa-landmark"></i> Lorem Academy</h1>
-        <h2>Login met je Lorem Academy e-mailadres</h2>
+        <h1>
+          <i className="fa fa-solid fa-landmark"></i> Lorem Academy
+        </h1>
+        <h2>Teacher</h2>
+        <h3>Login met je Lorem Academy e-mailadres</h3>
         <input type="text" placeholder="Lorem Academy e-mailadress" />
         <input type="password" name="" id="" placeholder="Wachtwoord" />
         <button type="button">Login</button>
+        <p>
+          Log uit en sluit alle webbrowsers wanneer je klaar bent om ervoor te
+          zorgen dat niemand anders toegang heeft tot je persoonlijke gegevens.
+        </p>
       </section>
     </>
   );

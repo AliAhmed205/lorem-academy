@@ -1,5 +1,6 @@
 
 import './App.css';
+import './css/Animation.css'
 import Index from './components/Index';
 
 

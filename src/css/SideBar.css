@@ -4,6 +4,8 @@
   width: 400px;
   height: 100vh;
   background-color: ghostwhite;
+  transition: .2s;
+
   
  & .user-container {
     display: flex;

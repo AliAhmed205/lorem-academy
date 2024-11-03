@@ -4,12 +4,14 @@
   background-color: var(--lorem-academy-focus);
   height: 100vh;
   overflow-y: scroll;
+  transition: .2s;
+
 
   & .post-something {
     background-color: ghostwhite;
     height: fit-content;
     padding: .8rem 0;
-    border-radius: 1rem;
+    border-radius: 1rem; 
 
     & h3 {
       font-size: 1rem;
@@ -40,6 +42,8 @@
         padding: 0 1rem;
         background-color: transparent;
         margin: 0 .5rem;
+        pointer-events: none;
+        user-select: none;
       }
 
       & button {
@@ -52,6 +56,7 @@
       }
     }
   }
+
 }
 
 
@@ -60,6 +65,7 @@
   background-color: ghostwhite;
   padding: 1rem;
   border-radius: 1rem;
+  transition: .2s;
 
   .user-container {
     display: flex;
@@ -183,3 +189,28 @@
   }
 }
 
+
+&:has(.post-something:hover) .side-bar,
+&:has(.post-something input:focus) .side-bar {
+  filter: brightness(.2);
+}
+
+&:has(.post-something:hover) .feed-container,
+&:has(.post-something input:focus) .feed-container {
+  --lorem-academy-focus: rgb(35, 30, 49); 
+}
+
+&:has(.post-something:hover) .feed-posts,
+&:has(.post-something input:focus) .feed-posts {
+  filter: brightness(.2);
+}
+
+&:has(.post-something:hover) .post-something,
+&:has(.post-something input:focus) .post-something {
+  &::after {
+    position: absolute;
+    top: .5rem;
+    color: white;
+    content: "Een bericht delen kan binnenkort! Je kunt wel berichten liken"
+  }
+}

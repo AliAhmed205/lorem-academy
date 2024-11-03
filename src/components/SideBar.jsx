@@ -20,7 +20,7 @@ const SideBar = () => {
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
-              <i className="fa fa-solid fa-comment"></i> Feed
+              <i className="fa fa-solid fa-comment"></i> Docenten
             </button>
           </li>
           <li>

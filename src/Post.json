@@ -8,7 +8,6 @@
     "postPhoto": "https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "post_description": "Ik blijf het zo bijzonder vinden hoe studenten leven kunnen brengen tot een klas lokaal. Hoewel de stitle soms fijn kan zijn, brengen ze toch altijd een gevoel mee.",
     "likes": 13,
-    "comments": 2,
     "saved": 4
   },
   {
@@ -20,7 +19,17 @@
     "postPhoto": null,
     "post_description": "Ik blijf het zo bijzonder vinden hoe studenten leven kunnen brengen tot een klas lokaal. Hoewel de stitle soms fijn kan zijn, brengen ze toch altijd een gevoel mee.",
     "likes": 9,
-    "comments": 2,
     "saved": 4
+  },
+  {
+    "id": 3,
+    "firstname": "Gerrie",
+    "surname": "Starreveld",
+    "photoUrl": "https://media.licdn.com/dms/image/v2/C5603AQEeeo-jNIHkWw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1607545618600?e=1736380800&v=beta&t=-jj19vJochKeqTDuuKVukwvYEv9fayMIl9qN8SzZgyE",
+    "date": "17 oktober 2024 om 08:45",
+    "postPhoto": "https://media.licdn.com/dms/image/v2/D4E22AQH7kW4heVuobw/feedshare-shrink_1280/feedshare-shrink_1280/0/1729846150186?e=1733356800&v=beta&t=z8R60rcwDqo4qjvINOpvGXpDk2LtpgTNAJlE1HWKQ3w",
+    "post_description": "Opgroeien met muurschilderingen. Van kleins af aan spelen tussen kunst. Het blijkt dat generaties kinderen uit de Amsterdamse Jordaan zijn opgegroeid met mijn muurschilderingen. Meer daarover kun je lezen in mijn blog.",
+    "likes": 0,
+    "saved": 2
   }
 ]

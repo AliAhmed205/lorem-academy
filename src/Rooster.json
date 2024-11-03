@@ -1,3 +1,39 @@
-[
-  
-]
+{
+  "rooster": [
+    {
+      "name": "Wiskunde",
+      "column": 2,
+      "row": "3/5" 
+    },
+    {
+      "name": "Nederlands",
+      "column": 3,
+      "row": "6/8" 
+    },
+    {
+      "name": "Geschiedenis",
+      "column": 4,
+      "row": "9/11" 
+    },
+    {
+      "name": "Biologie",
+      "column": 5,
+      "row": "3/4" 
+    },
+    {
+      "name": "Engels",
+      "column": 6,
+      "row": "6/7" 
+    },
+    {
+      "name": "Aardrijkskunde",
+      "column": 2,
+      "row": "11/13" 
+    },
+    {
+      "name": "Scheikunde",
+      "column": 3,
+      "row": "9/10" 
+    }
+  ]
+}

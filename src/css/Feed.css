@@ -110,14 +110,25 @@
         margin: 1rem 0;
         border: none;
         background-color: transparent;
+        transition: .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
         & span {
           margin-right: .5rem;
         }
         & i {
+          color: black;
+        }
+      }
+      
+      & button.interacted {
+        color: var(--lorem-academy-color);
+        font-size: 1.1rem;
+      
+        & i {
           color: var(--lorem-academy-color);
         }
       }
+
     }
   }
 
@@ -165,3 +176,10 @@
     }
   }
 }
+
+.post-container {
+  & > img {
+    width: 100%;
+  }
+}
+

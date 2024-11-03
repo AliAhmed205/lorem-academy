@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstname": "Emily",
+    "surname": "Rooschouten",
+    "photoUrl": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "date": "21 oktober 2024 om 08:45",
+    "postPhoto": "https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "post_description": "Ik blijf het zo bijzonder vinden hoe studenten leven kunnen brengen tot een klas lokaal. Hoewel de stitle soms fijn kan zijn, brengen ze toch altijd een gevoel mee.",
+    "likes": 13,
+    "comments": 2,
+    "saved": 4
+  },
+  {
+    "id": 2,
+    "firstname": "Ronald",
+    "surname": "Rietveld",
+    "photoUrl": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "date": "21 oktober 2024 om 08:45",
+    "postPhoto": null,
+    "post_description": "Ik blijf het zo bijzonder vinden hoe studenten leven kunnen brengen tot een klas lokaal. Hoewel de stitle soms fijn kan zijn, brengen ze toch altijd een gevoel mee.",
+    "likes": 13,
+    "comments": 2,
+    "saved": 4
+  }
+]

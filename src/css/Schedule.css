@@ -69,6 +69,8 @@ h3 {
   }
 
   /* Dagen */
+
+
   
   &:nth-of-type(12) {
     grid-column: 2;
@@ -97,3 +99,9 @@ h3 {
 }
 
 }
+
+  .day-styling {
+    background-color: var(--lorem-academy-color);
+    color: white;
+    padding: 1.3rem;
+  }

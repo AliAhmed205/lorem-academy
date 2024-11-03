@@ -1,0 +1,89 @@
+.side-bar {
+  padding: 1rem;
+
+  width: 250px;
+  height: 100vh;
+  background-color: ghostwhite;
+  
+ & .user-container {
+    display: flex;
+    gap: .5rem;
+
+    & img {
+      width: 50px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: .5rem;
+    }
+
+   & .username {
+      display: flex;
+      flex-direction: column;
+
+      & h1 {
+        font-size: 1.5rem;
+      }
+
+      & h2 {
+        font-size: .8rem;
+        opacity: .5;
+      }
+
+    }
+  }
+
+  & hr {
+    margin: 1rem 0;
+  }
+
+  & h3:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  & ul {
+    margin-bottom: auto;
+
+    & li {
+      list-style-type: none;
+
+      & span {
+        margin-right: .3rem;
+      }
+
+      & button {
+        justify-content: flex-start;
+         font-size: 1rem;
+        border: none;
+        background-color: transparent;
+        padding: .5rem;
+        width: 100%;
+        border-radius: .5rem;
+        transition: .2s;
+
+        &:focus {
+          background-color: var(--lorem-academy-focus);
+          color: var(--lorem-academy-color);
+        }
+
+        & i {
+          margin-right: .5rem;
+        }
+      }
+    }
+  }
+
+  & h3:nth-of-type(2) {
+    text-transform: capitalize;
+    font-family: var(--lorem-academy-font);
+  }
+
+  & a {
+    color: ghostwhite;
+    background-color: var(--lorem-academy-color);
+    padding: .5rem 1rem;
+    width: fit-content;
+    border-radius: .5rem;
+    margin: .5rem 0;
+    text-decoration: none;
+  }
+}

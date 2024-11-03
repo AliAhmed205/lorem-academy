@@ -1,0 +1,52 @@
+.feed-container {
+  width: 600px;
+  padding: 2rem;
+  background-color: var(--lorem-academy-focus);
+  
+  & .post-something {
+    background-color: ghostwhite;
+    height: fit-content;
+    padding: .8rem 0;
+    border-radius: 1rem;
+
+    & h3 {
+      font-size: 1rem;
+      padding: 0rem 1rem .5rem; 
+    }
+
+    & hr {
+      margin-bottom: .5rem;
+      width: 100%;
+      background-color: black;
+      height: 1px;
+      border: none;
+    }
+    div {
+      padding: 0rem 1rem;
+
+      & img {
+        width: 30px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 2rem;
+      }
+
+      & input {
+        width: 100%;
+        border: none;
+        padding: 0 1rem;
+        background-color: transparent;
+        margin: 0 .5rem;
+      }
+
+      & button {
+        aspect-ratio: 1/1;
+        width: 40px;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: black;
+        border: none;
+      }
+    }
+  }
+}

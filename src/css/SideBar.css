@@ -1,7 +1,7 @@
 .side-bar {
   padding: 1rem;
 
-  width: 250px;
+  width: 400px;
   height: 100vh;
   background-color: ghostwhite;
   
@@ -86,4 +86,44 @@
     margin: .5rem 0;
     text-decoration: none;
   }
+}
+
+
+.feed-posts {
+  margin: 2rem 0;
+  background-color: ghostwhite;
+.user-container {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+
+  & img {
+    width: 50px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: .5rem;
+  }
+
+ & .username {
+    display: flex;
+    flex-direction: column;
+
+    & h1 {
+      font-size: 1.5rem;
+    }
+
+    & h2 {
+      font-size: .8rem;
+      opacity: .5;
+    }
+
+  }
+
+  & button {
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
+}
 }

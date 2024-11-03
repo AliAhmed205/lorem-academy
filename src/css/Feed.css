@@ -1,8 +1,10 @@
 .feed-container {
-  width: 600px;
+  width: 650px;
   padding: 2rem;
   background-color: var(--lorem-academy-focus);
-  
+  height: 100vh;
+  overflow-y: scroll;
+
   & .post-something {
     background-color: ghostwhite;
     height: fit-content;
@@ -11,7 +13,7 @@
 
     & h3 {
       font-size: 1rem;
-      padding: 0rem 1rem .5rem; 
+      padding: 0rem 1rem .5rem;
     }
 
     & hr {
@@ -21,6 +23,7 @@
       height: 1px;
       border: none;
     }
+
     div {
       padding: 0rem 1rem;
 
@@ -46,6 +49,118 @@
         background-color: transparent;
         color: black;
         border: none;
+      }
+    }
+  }
+}
+
+
+.feed-posts {
+  margin: 1rem 0;
+  background-color: ghostwhite;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  .user-container {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+
+    & img {
+      width: 30px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 100%;
+    }
+
+    & .username {
+      display: flex;
+      flex-direction: column;
+
+      & h1 {
+        font-size: 1rem;
+      }
+
+      & h2 {
+        font-size: .8rem;
+        opacity: .5;
+        font-weight: 400;
+      }
+
+    }
+
+    & button {
+      margin-left: auto;
+      border: none;
+      background-color: transparent;
+      font-size: 1.5rem;
+    }
+  }
+
+  & .post.text {
+    margin: 1rem 0;
+  }
+
+  & .post.interaction {
+
+    & div {
+      display: flex;
+      justify-content: space-between;
+      & button {
+        margin: 1rem 0;
+        border: none;
+        background-color: transparent;
+
+        & span {
+          margin-right: .5rem;
+        }
+        & i {
+          color: var(--lorem-academy-color);
+        }
+      }
+    }
+  }
+
+  & > img {
+    width: 100%;
+  }
+
+  & .post-something {
+    margin: .5rem 0 0 0;
+    & div {
+      padding: 0;
+
+      & img {
+        margin-right: .5rem;
+        border-radius: 100%;
+        width: 2.3rem;
+      }
+
+      & .reageer-container {
+        background-color: rgb(235, 235, 235);
+        border-radius: .5rem;
+        width: 100%;
+        align-items: center;
+
+        & input{
+          padding: 0;
+        
+        &:focus-visible {
+          outline: none;
+          }
+        }
+
+        & button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & i {
+            font-size: 1rem;
+            opacity: 1;
+            color: var(--lorem-academy-color);
+          }
+        }
       }
     }
   }

@@ -48,6 +48,12 @@ function Schedule() {
     setvakDuur("");
   };
 
+  const removeSubject = (index) => {
+    const updatedVakken = vakken.filter((vak, i) => i !== index);
+    setVakken(updatedVakken);
+  };
+
+
   return (
     <section className="grid-parent">
       <h3>08:00</h3>
@@ -84,9 +90,10 @@ function Schedule() {
         >
           <div style={{ display: "flex" }}>
             <h4 style={{ marginRight: "auto" }}>{vak.name}</h4>
-            <button>
+            <button onClick={() => removeSubject(index)}>
               <i className="fa-solid fa-xmark"></i>
             </button>
+
           </div>
         </div>
       ))}

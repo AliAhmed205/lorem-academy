@@ -17,7 +17,7 @@ const SideBar = () => {
         <h3>Overzicht</h3>
         <ul className="c_flex">
           <li>
-            <Link to="/Schedule">
+            <Link to="/">
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
@@ -25,15 +25,15 @@ const SideBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/Schedule">
+            <Link to="/">
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
-              <i className="fa fa-solid fa-calendar-days"></i> Rooster
+              <i className="fa fa-solid fa-calendar-days"></i> Mijn Rooster
             </Link>
           </li>
           <li>
-            <Link to="/Schedule">
+            <Link to="/">
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
@@ -41,7 +41,27 @@ const SideBar = () => {
             </Link>
           </li>
         </ul>
-        <h3>
+        <hr />
+        <h3>Studenten</h3>
+        <ul className="c_flex">
+          <li>
+            <Link to="/Schedule">
+              <span>
+                <i className="fa fa-solid fa-chevron-right"></i>
+              </span>
+              <i className="fa fa-solid fa-calendar-days"></i> Studenten Rooster
+            </Link>
+          </li>
+          <li>
+            <Link to="/">
+              <span>
+                <i className="fa fa-solid fa-chevron-right"></i>
+              </span>
+              <i className="fa fa-solid fa-envelope"></i> Berichten
+            </Link>
+          </li>
+        </ul>
+        <h3 className="lorem-academy-logo">
           <i className="fa fa-solid fa-landmark"></i> lorem Academy
         </h3>
         <a href="/">

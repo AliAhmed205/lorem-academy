@@ -1,0 +1,24 @@
+{
+  "meetings": [
+    {
+      "name": "Wekelijkse Maandag meeting",
+      "dag" : "Maandag 21 oktokber",
+      "duration": "15:00 - 18:00"
+    },
+    {
+      "name": "SLB - Anouk",
+      "dag" : "Dinsdag 22 oktokber",
+      "duration": "15:00 - 16:00"
+    },
+    {
+      "name": "SLB - Kevin",
+      "dag" : "Dinsdag 22 oktokber",
+      "duration": "16:00 - 17:00"
+    },
+    {
+      "name": "Evaluatie DDN",
+      "dag" : "Vrijdag 25 oktokber",
+      "duration": "17:00 - 18:00"
+    }
+  ]
+}

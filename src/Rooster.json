@@ -8,7 +8,12 @@
     {
       "name": "Nederlands",
       "column": 3,
-      "row": "6/8" 
+      "row": "3/6" 
+    },
+    {
+      "name": "Studieloopbaan Begeleiding",
+      "column": 3,
+      "row": "7/10" 
     },
     {
       "name": "Geschiedenis",
@@ -33,7 +38,7 @@
     {
       "name": "Scheikunde",
       "column": 3,
-      "row": "9/10" 
+      "row": "10/12" 
     }
   ]
 }

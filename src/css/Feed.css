@@ -1,6 +1,6 @@
 .feed-container {
-  width: 650px;
-  padding: 2rem;
+  width: 750px;
+  padding: 2rem 4rem;
   background-color: var(--lorem-academy-focus);
   height: 100vh;
   overflow-y: scroll;

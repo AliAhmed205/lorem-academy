@@ -40,10 +40,11 @@ function Schedule() {
           style={{
             gridColumn: vak.column,
             gridRow: vak.row,
-            backgroundColor: "blue",
+            backgroundColor: "var(--lorem-academy-color)",
             color: "white",
             padding: "10px",
             margin: "2px",
+            borderRadius: '1rem'
           }}
         >
           <div

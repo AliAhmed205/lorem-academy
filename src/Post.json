@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "firstname": "Emily",
     "surname": "Rooschouten",
@@ -17,7 +16,7 @@
     "photoUrl": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "date": "21 oktober 2024 om 08:45",
     "postPhoto": null,
-    "post_description": "Ik blijf het zo bijzonder vinden hoe studenten leven kunnen brengen tot een klas lokaal. Hoewel de stitle soms fijn kan zijn, brengen ze toch altijd een gevoel mee.",
+    "post_description": "Beste collegas, <br><br> De Engels lessen van aankomende vrijdag vallen uit i.v.m. een meeting op onze zuster-faculiteit in Rotterdam. De studenten kunnen echter wel het werk vinden op BrightSpace. S.V.P. vraag ik de mentoren om dit aan te kaarten bij de studenten.",
     "likes": 9,
     "saved": 4
   },
@@ -31,5 +30,16 @@
     "post_description": "Opgroeien met muurschilderingen. Van kleins af aan spelen tussen kunst. Het blijkt dat generaties kinderen uit de Amsterdamse Jordaan zijn opgegroeid met mijn muurschilderingen. Meer daarover kun je lezen in mijn blog.",
     "likes": 0,
     "saved": 2
+  },
+  {
+    "id": 4,
+    "firstname": "Sanne",
+    "surname": "'t Hooft",
+    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShpFXLJDVdMpt96yickaaUYoyzYUjO-keccA&s",
+    "date": "10 oktober 2024 om 09:01",
+    "postPhoto": null,
+    "post_description": "Dag <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Danny</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Ivo</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Vasilis</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Ali</span> en <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Anna-Kyra</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Bregtje</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Christopher</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Daan</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>David</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Hadil</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Jason</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Jesse</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Kim</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Lisa</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Sybren</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Tom</span>, <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Thomas</span> en <span style='font-weight: bold; color: var(--lorem-academy-color); pointer-events: auto''>Bahaa</span>,  <br><br> Het materiaal voor blok 2 staat op DLO. Zelfde als blok 1 --> behalve de position oefeningen --> die zijn meer in lijn met waar position nog nuttig is (grid is vaak beter) met dialogs als nieuw onderwerp. In de loop van de week nog even puzzelen welke studentassistenten bij welke klas. <br><br> Hopelijk verspreidt de beschikbaarheid zich wat meer 🤞.",
+    "likes" : 10,
+    "saved": 6
   }
 ]

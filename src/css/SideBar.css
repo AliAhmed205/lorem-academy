@@ -52,10 +52,13 @@
         margin-right: .3rem;
       }
 
-      & button {
+      & a {
         justify-content: flex-start;
-         font-size: 1rem;
+        font-size: 1rem;
         border: none;
+        color: black;
+        margin: 0;
+        display: block;
         background-color: transparent;
         padding: .5rem;
         width: 100%;
@@ -65,6 +68,7 @@
         &:focus {
           background-color: var(--lorem-academy-focus);
           color: var(--lorem-academy-color);
+          padding-left: 1rem;
         }
 
         & i {

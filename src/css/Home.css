@@ -1,0 +1,4 @@
+.home-container {
+  animation: fadeIn .5s 1s backwards;
+  opacity: 1;
+}

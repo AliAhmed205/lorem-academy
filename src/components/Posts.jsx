@@ -41,7 +41,12 @@ const Posts = ({
         </button>
       </div>
 
-      <p className="post text">{postDescription}</p>
+      <p className="post text"
+          dangerouslySetInnerHTML={{
+            __html: postDescription
+          }}
+        ></p>
+      {/* <p className="post text">{postDescription}</p> */}
       {postPhoto && <img src={postPhoto} alt="foto van de post" />}
 
       <div className="post interaction">

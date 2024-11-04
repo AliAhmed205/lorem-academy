@@ -40,15 +40,31 @@ function Schedule() {
           style={{
             gridColumn: vak.column,
             gridRow: vak.row,
-            backgroundColor: "var(--lorem-academy-color)",
+            backgroundColor: "blue",
             color: "white",
             padding: "10px",
             margin: "2px",
           }}
         >
-          {vak.name}
+          <div
+            style={{
+              display: "flex",
+            }}
+          >
+            <h4
+              style={{
+                marginRight: "auto",
+              }}
+            >
+              {vak.name}
+            </h4>
+            <button>
+              <i className="fa-solid fa-xmark"></i>
+            </button>
+          </div>
         </div>
       ))}
+
 
     </section>
   );

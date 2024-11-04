@@ -1,6 +1,7 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import roosterData from "../Rooster.json";
-import "../css/Schedule.css"
+import StickyNoteSchedule from "./StickyNoteSchedule";
+import "../css/Schedule.css";
 
 function Schedule() {
   const [vakken, setVakken] = useState([]);
@@ -40,7 +41,7 @@ function Schedule() {
     for (let i = 0; i < vakken.length; i++) {
       geupdateVakken.push(vakken[i]);
     }
-    geupdateVakken.push(nieuwVak); 
+    geupdateVakken.push(nieuwVak);
 
     setVakken(geupdateVakken);
 
@@ -53,70 +54,83 @@ function Schedule() {
     setVakken(updatedVakken);
   };
 
-
   return (
-    <section className="grid-parent">
-      <h3>08:00</h3>
-      <h3>09:00</h3>
-      <h3>10:00</h3>
-      <h3>11:00</h3>
-      <h3>12:00</h3>
-      <h3>13:00</h3>
-      <h3>14:00</h3>
-      <h3>15:00</h3>
-      <h3>16:00</h3>
-      <h3>17:00</h3>
-      <h3>18:00</h3>
+    <section className="grid-container">
+      {" "}
+      <section className="grid-parent">
+        <h3>08:00</h3>
+        <h3>09:00</h3>
+        <h3>10:00</h3>
+        <h3>11:00</h3>
+        <h3>12:00</h3>
+        <h3>13:00</h3>
+        <h3>14:00</h3>
+        <h3>15:00</h3>
+        <h3>16:00</h3>
+        <h3>17:00</h3>
+        <h3>18:00</h3>
 
-      <h3 className="day-styling">maandag</h3>
-      <h3 className="day-styling">dinsdag</h3>
-      <h3 className="day-styling">woensdag</h3>
-      <h3 className="day-styling">donderdag</h3>
-      <h3 className="day-styling">vrijdag</h3>
+        <h3 className="day-styling">maandag</h3>
+        <h3 className="day-styling">dinsdag</h3>
+        <h3 className="day-styling">woensdag</h3>
+        <h3 className="day-styling">donderdag</h3>
+        <h3 className="day-styling">vrijdag</h3>
 
-      {vakken.map((vak, index) => (
-        <div
-          key={index}
-          className="vak"
-          style={{
-            gridColumn: vak.column,
-            gridRow: vak.row,
-            backgroundColor: "var(--lorem-academy-color)",
-            color: "white",
-            padding: "10px",
-            margin: "2px",
-            borderRadius: "1rem",
-          }}
-        >
-          <div style={{ display: "flex" }}>
-            <h4 style={{ marginRight: "auto" }}>{vak.name}</h4>
-            <button onClick={() => removeSubject(index)}>
-              <i className="fa-solid fa-xmark"></i>
-            </button>
-
+        {vakken.map((vak, index) => (
+          <div
+            key={index}
+            className="vak"
+            style={{
+              gridColumn: vak.column,
+              gridRow: vak.row,
+              backgroundColor: "var(--lorem-academy-color)",
+              color: "white",
+              padding: "10px",
+              margin: "2px",
+              borderRadius: "1rem",
+            }}
+          >
+            <div style={{ display: "flex" }}>
+              <h4 style={{ marginRight: "auto" }}>{vak.name}</h4>
+              <button onClick={() => removeSubject(index)}>
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
 
-      <input
-        type="text"
-        placeholder="Naam van het vak"
-        value={vakNaam}
-        onChange={(event) => setvakNaam(event.target.value)}
-        className="padding-2"
-      />
-      <input
-        type="text"
-        placeholder="Tijdsbereik (bijv. '3/5')"
-        value={vakDuur}
-        onChange={(event) => setvakDuur(event.target.value)}
-        className="padding-2"
-      />
-      <button className="add-vak" onClick={() => addSubject(2)}>+ Vak toevoegen</button>
-      <button className="add-vak" onClick={() => addSubject(3)}>+ Vak toevoegen</button>
-      <button className="add-vak" onClick={() => addSubject(4)}>+ Vak toevoegen</button>
-      <button className="add-vak" onClick={() => addSubject(5)}>+ Vak toevoegen</button>
-      <button className="add-vak" onClick={() => addSubject(6)}>+ Vak toevoegen</button>
+        <input
+          type="text"
+          placeholder="Naam van het vak"
+          value={vakNaam}
+          onChange={(event) => setvakNaam(event.target.value)}
+          className="padding-2"
+        />
+        <input
+          type="text"
+          placeholder="Tijdsbereik (bijv. ' 3/5' (rij 3 tot 5))"
+          value={vakDuur}
+          onChange={(event) => setvakDuur(event.target.value)}
+          className="padding-2"
+        />
+        <button className="add-vak" onClick={() => addSubject(2)}>
+          + Vak toevoegen
+        </button>
+        <button className="add-vak" onClick={() => addSubject(3)}>
+          + Vak toevoegen
+        </button>
+        <button className="add-vak" onClick={() => addSubject(4)}>
+          + Vak toevoegen
+        </button>
+        <button className="add-vak" onClick={() => addSubject(5)}>
+          + Vak toevoegen
+        </button>
+        <button className="add-vak" onClick={() => addSubject(6)}>
+          + Vak toevoegen
+        </button>
+      </section>
+
+      <StickyNoteSchedule /> 
     </section>
   );
 }

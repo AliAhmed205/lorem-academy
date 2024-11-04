@@ -1,158 +1,185 @@
-.grid-parent {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(13, 1fr);
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-
-  background-image:
-    repeating-linear-gradient(#ccc 0 1px, transparent 1px 100%),
-    repeating-linear-gradient(90deg, #ccc 0 1px, transparent 1px 100%);
-  background-size: calc(100vw / 6) calc(100vh / 13);
-
-
-  h3 {
-
-
-    text-align: center;
-    margin: auto 0;
-
-
-    &:nth-of-type(1) {
-      grid-column: 1;
-      grid-row: 3;
-    }
-
-    &:nth-of-type(2) {
-      grid-column: 1;
-      grid-row: 4;
-    }
-
-    &:nth-of-type(3) {
-      grid-column: 1;
-      grid-row: 5;
-    }
-
-    &:nth-of-type(4) {
-      grid-column: 1;
-      grid-row: 6;
-    }
-
-    &:nth-of-type(5) {
-      grid-column: 1;
-      grid-row: 7;
-    }
-
-    &:nth-of-type(6) {
-      grid-column: 1;
-      grid-row: 8;
-    }
-
-    &:nth-of-type(7) {
-      grid-column: 1;
-      grid-row: 9;
-    }
-
-    &:nth-of-type(8) {
-      grid-column: 1;
-      grid-row: 10;
-    }
-
-    &:nth-of-type(9) {
-      grid-column: 1;
-      grid-row: 11;
-    }
-
-    &:nth-of-type(10) {
-      grid-column: 1;
-      grid-row: 12;
-    }
-
-    &:nth-of-type(11) {
-      grid-column: 1;
-      grid-row: 13;
-    }
-
-    /* Dagen */
-
-
-
-    &:nth-of-type(12) {
-      grid-column: 2;
-      grid-row: 1;
-      border-bottom: solid 3px black;
-    }
-
-    &:nth-of-type(13) {
-      grid-column: 3;
-      grid-row: 1;
-      border-bottom: solid 3px black;
-    }
-
-    &:nth-of-type(14) {
-      grid-column: 4;
-      grid-row: 1;
-      border-bottom: solid 3px black;
-    }
-
-    &:nth-of-type(15) {
-      grid-column: 5;
-      grid-row: 1;
-      border-bottom: solid 3px black;
-
-    }
-
-    &:nth-of-type(16) {
-      grid-column: 6;
-      grid-row: 1;
-      border-bottom: solid 3px black;
-    }
-  }
-
-  div {
+  .grid-container {
     position: relative;
-    & h4 {
-      width: fit-content;
-      width: 109%;
-      left: -.64rem;
-      position: absolute;
-      top: -.63rem;
-      font-size: .8rem;
-      background-color: black;
-      border-radius: 1rem 1rem 0 0;
-      padding: .5rem;
+    overflow-y: hidden;
+
+    .grid-parent {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(13, 1fr);
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+
+      background-image:
+        repeating-linear-gradient(#ccc 0 1px, transparent 1px 100%),
+        repeating-linear-gradient(90deg, #ccc 0 1px, transparent 1px 100%);
+      background-size: calc(100vw / 6) calc(100vh / 13);
+
+
+      h3 {
+
+
+        text-align: center;
+        margin: auto 0;
+
+
+        &:nth-of-type(1) {
+          grid-column: 1;
+          grid-row: 3;
+        }
+
+        &:nth-of-type(2) {
+          grid-column: 1;
+          grid-row: 4;
+        }
+
+        &:nth-of-type(3) {
+          grid-column: 1;
+          grid-row: 5;
+        }
+
+        &:nth-of-type(4) {
+          grid-column: 1;
+          grid-row: 6;
+        }
+
+        &:nth-of-type(5) {
+          grid-column: 1;
+          grid-row: 7;
+        }
+
+        &:nth-of-type(6) {
+          grid-column: 1;
+          grid-row: 8;
+        }
+
+        &:nth-of-type(7) {
+          grid-column: 1;
+          grid-row: 9;
+        }
+
+        &:nth-of-type(8) {
+          grid-column: 1;
+          grid-row: 10;
+        }
+
+        &:nth-of-type(9) {
+          grid-column: 1;
+          grid-row: 11;
+        }
+
+        &:nth-of-type(10) {
+          grid-column: 1;
+          grid-row: 12;
+        }
+
+        &:nth-of-type(11) {
+          grid-column: 1;
+          grid-row: 13;
+        }
+
+        /* Dagen */
+
+
+
+        &:nth-of-type(12) {
+          grid-column: 2;
+          grid-row: 1;
+          border-bottom: solid 3px black;
+        }
+
+        &:nth-of-type(13) {
+          grid-column: 3;
+          grid-row: 1;
+          border-bottom: solid 3px black;
+        }
+
+        &:nth-of-type(14) {
+          grid-column: 4;
+          grid-row: 1;
+          border-bottom: solid 3px black;
+        }
+
+        &:nth-of-type(15) {
+          grid-column: 5;
+          grid-row: 1;
+          border-bottom: solid 3px black;
+
+        }
+
+        &:nth-of-type(16) {
+          grid-column: 6;
+          grid-row: 1;
+          border-bottom: solid 3px black;
+        }
+      }
+
+      div {
+        position: relative;
+
+        & h4 {
+          width: fit-content;
+          width: 109%;
+          left: -.64rem;
+          position: absolute;
+          top: -.63rem;
+          font-size: .8rem;
+          background-color: black;
+          border-radius: 1rem 1rem 0 0;
+          padding: .5rem;
+        }
+
+        & button {
+          position: absolute;
+          height: fit-content;
+          aspect-ratio: 1/1;
+          width: 1.5rem;
+          background-color: transparent;
+          border: none;
+          color: ghostwhite;
+          font-size: 1rem;
+          z-index: 1;
+          top: -.4rem;
+          right: 0;
+        }
+      }
+
+      .add-vak {
+        background-color: var(--lorem-academy-focus);
+        border: none;
+        font-family: var(--lorem-academy);
+        transition: .2s;
+
+        &:hover {
+          background-color: rgb(193, 141, 231);
+        }
+      }
     }
 
-    & button {
+    & .sticky-note-container {
       position: absolute;
       height: fit-content;
-      aspect-ratio: 1/1;
-      width: 1.5rem;
-      background-color: transparent;
-      border: none;
-      color: ghostwhite;
-      font-size: 1rem;
-      z-index: 1;
-      top: -.4rem;
-      right: 0;
+      width: 100vw;
+      display: flex;
+      justify-content: flex-end;
+      
+
+
+      & .sticky-note {
+        width: 400px;
+        height: 300px;
+
+        & p {
+          font-size: 1rem;
+          margin: .5rem 0;
+        }
+      }
     }
   }
 
-  .add-vak {
-    background-color: var(--lorem-academy-focus);
-    border: none;
-    font-family: var(--lorem-academy);
-    transition: .2s;
 
-    &:hover {
-      background-color: rgb(193, 141, 231);
-    }
+  .day-styling {
+    background-color: var(--lorem-academy-color);
+    color: white;
+    padding: 1.3rem;
   }
-}
-
-.day-styling {
-  background-color: var(--lorem-academy-color);
-  color: white;
-  padding: 1.3rem;
-}

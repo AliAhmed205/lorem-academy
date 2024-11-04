@@ -1,6 +1,6 @@
 .side-bar {
   padding: 1rem;
-
+  min-width: 400px;
   width: 400px;
   height: 100vh;
   background-color: ghostwhite;
@@ -94,3 +94,20 @@
   }
 }
 
+
+.rightbar-container {
+  width: max-content;
+  width: 100%;
+
+  .meeting-container {
+    height: 50vh;
+    background-color: yellow;
+    padding: 2rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    & h3 {
+      margin-top: 1rem;
+    }
+  }
+}

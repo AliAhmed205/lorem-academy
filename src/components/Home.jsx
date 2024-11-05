@@ -3,6 +3,7 @@ import SideBar from "./SideBar";
 import Feed from "./Feed";
 import "../css/Home.css";
 import RightBar from "./RightBar";
+import MobileWarning from "./MobileWarning";
 
 const Home = () =>{
   return (
@@ -13,6 +14,7 @@ const Home = () =>{
           <RightBar />
       </section>
       <div className="overlay-container"></div>
+      <MobileWarning />
     </>
   )
 }

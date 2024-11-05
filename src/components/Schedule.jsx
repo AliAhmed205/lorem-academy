@@ -3,6 +3,7 @@ import roosterData from "../Rooster.json";
 import { Link } from "react-router-dom";
 import StickyNoteSchedule from "./StickyNoteSchedule";
 import "../css/Schedule.css";
+import MobileWarning from "./MobileWarning";
 
 function Schedule() {
   const [vakken, setVakken] = useState([]);
@@ -56,6 +57,7 @@ function Schedule() {
   };
 
   return (
+    <>
     <section className="grid-container">
       {" "}
       <section className="grid-parent">
@@ -132,9 +134,10 @@ function Schedule() {
       </section>
 
       <StickyNoteSchedule /> 
-
         <Link className="back-to-home" to="/Home"><i class="fa-solid fa-arrow-left"></i> Terug naar home</Link>
     </section>
+    <MobileWarning />
+    </>
   );
 }
 

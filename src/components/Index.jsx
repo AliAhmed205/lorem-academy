@@ -2,6 +2,7 @@ import React from "react"
 import Login from "./Login"
 import Stickynote from "./StickyNote"
 import MissionNote from "./MissionNote"
+import MobileWarning from "./MobileWarning"
 import "../css/Index.css"
 
 const Index = () =>{
@@ -16,6 +17,7 @@ const Index = () =>{
       <MissionNote />
       </section>
     </section>
+    <MobileWarning />
     </>
   )
 }

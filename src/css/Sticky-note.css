@@ -48,8 +48,8 @@
 
 .sticky-note-container.mission {
   z-index: 98;
-  left: 100px;
-  top: -10px;
+  left: 400px;
+  bottom: 0;
 
   & h1 {
     font-size: 1.5rem;
@@ -61,8 +61,8 @@
 }
 .sticky-note-container.side-mission {
   z-index: 98;
-  left: 400px;
-  top: -10px;
+  left: 700px;
+  bottom: 0px;
 
   & h1 {
     font-size: 1.5rem;

@@ -13,9 +13,46 @@
   }
 }
 
-@media screen and (max-width: 499px) {
+.index-container.mobile {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lorem-academy-white);
+
+  & > i {
+    font-size: 8rem;
+    margin: 2rem 0;
+    color: var(--lorem-academy-color);
+    opacity: .2;
+  }
+
+  & h2 {
+    font-size: 2rem;
+    & i {
+      color: var(--lorem-academy-color);
+    }
+  }
+
+  & p {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .overlay-container {
+    display: none;
+  }
+
+  .home-container {
+    display: none;
+  }
+
   .index-container {
-    & img {
+    display: none;
+    /* & img {
       display: none;
     }
 
@@ -32,7 +69,11 @@
       & p {
         margin-bottom: auto;
       }
-    }
+    } */
+  }
+
+  .index-container.mobile {
+    display: flex;
   }
   
 }

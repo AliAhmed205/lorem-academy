@@ -1,6 +1,7 @@
 import React from "react"
 import Login from "./Login"
 import Stickynote from "./StickyNote"
+import MissionNote from "./MissionNote"
 import "../css/Index.css"
 
 const Index = () =>{
@@ -12,6 +13,7 @@ const Index = () =>{
         <section className="login-parent">
       <Login />
     <Stickynote />
+      <MissionNote />
       </section>
     </section>
     </>

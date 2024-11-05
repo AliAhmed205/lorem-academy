@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import roosterData from "../Rooster.json";
+import { Link } from "react-router-dom";
 import StickyNoteSchedule from "./StickyNoteSchedule";
 import "../css/Schedule.css";
 
@@ -131,6 +132,8 @@ function Schedule() {
       </section>
 
       <StickyNoteSchedule /> 
+
+        <Link className="back-to-home" to="/Home"><i class="fa-solid fa-arrow-left"></i> Terug naar home</Link>
     </section>
   );
 }

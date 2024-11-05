@@ -1,4 +1,6 @@
   .grid-container {
+    animation: fadeIn .5s 1s backwards;
+    opacity: 1;
     position: relative;
     overflow-y: hidden;
 
@@ -177,4 +179,18 @@
     background-color: var(--lorem-academy-color);
     color: white;
     padding: 1.3rem;
+  }
+
+  .back-to-home {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+
+    background-color: var(--lorem-academy-color);
+    color: var(--lorem-academy-white);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+
+    text-decoration: none;
+    z-index: 100;
   }

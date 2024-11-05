@@ -45,3 +45,33 @@
   bottom: 0px;
   left: 100px;
 }
+
+.sticky-note-container.mission {
+  z-index: 98;
+  left: 100px;
+  top: -10px;
+
+  & h1 {
+    font-size: 1.5rem;
+  }
+
+  & p {
+    font-size: 1rem;
+  }
+}
+.sticky-note-container.side-mission {
+  z-index: 98;
+  left: 400px;
+  top: -10px;
+
+  & h1 {
+    font-size: 1.5rem;
+  }
+
+  & p {
+    font-size: 1rem;
+  }
+  & .sticky-note {
+    background-color: lightskyblue;
+  }
+}

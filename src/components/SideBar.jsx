@@ -64,7 +64,7 @@ const SideBar = () => {
         <h3 className="lorem-academy-logo">
           <i className="fa fa-solid fa-landmark"></i> lorem Academy
         </h3>
-        <a href="/Home">
+        <a href="/">
           {" "}
           <i className="fa fa-solid fa-arrow-right-from-bracket"></i> Log out
         </a>

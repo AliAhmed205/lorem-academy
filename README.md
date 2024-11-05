@@ -26,26 +26,26 @@
 
 <p>Feel free to install the project. Here's a stepy by step guide to do so.</p>
 
-<img src="https://github.com/user-attachments/assets/aa9f5f9c-de49-4d44-8915-c1e3946984bc" alt="Clone Repository">
+<img  width="200"  src="https://github.com/user-attachments/assets/aa9f5f9c-de49-4d44-8915-c1e3946984bc" alt="Clone Repository">
 
 ```BASH
-git clone https://github.com/AliAhmed205/pawpal.git
+git clone https://github.com/AliAhmed205/lorem-academy.git
 ```
 
-<img src="https://github.com/user-attachments/assets/262ad07c-ef40-4b94-8ab5-550c99e1c6e2" alt="Change Directory">
+<img width="200"  src="https://github.com/user-attachments/assets/262ad07c-ef40-4b94-8ab5-550c99e1c6e2" alt="Change Directory">
 
 
 ```BASH
 cd lorem-academy
 ```
 
-<img src='https://github.com/user-attachments/assets/e53e59fb-1e72-4c4e-96de-5c3add6146f0' alt='Install dependencies'>
+<img width="250"  src='https://github.com/user-attachments/assets/e53e59fb-1e72-4c4e-96de-5c3add6146f0' alt='Install dependencies'>
 
 ```BASH
 npm install
 ```
 
-<img src="https://github.com/user-attachments/assets/8b8a7a86-720a-4330-ae14-34566fd4b2c1" alt="Run the project">
+<img width="200"  src="https://github.com/user-attachments/assets/8b8a7a86-720a-4330-ae14-34566fd4b2c1" alt="Run the project">
 
 
 ```BASH

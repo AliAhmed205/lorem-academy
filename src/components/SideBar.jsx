@@ -17,7 +17,7 @@ const SideBar = () => {
         <h3>Overzicht</h3>
         <ul className="c_flex">
           <li>
-            <Link to="/">
+            <Link to="/Home">
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
@@ -25,7 +25,7 @@ const SideBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/Home">
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
@@ -33,7 +33,7 @@ const SideBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/Home">
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
@@ -53,7 +53,7 @@ const SideBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/Home">
               <span>
                 <i className="fa fa-solid fa-chevron-right"></i>
               </span>
@@ -64,7 +64,7 @@ const SideBar = () => {
         <h3 className="lorem-academy-logo">
           <i className="fa fa-solid fa-landmark"></i> lorem Academy
         </h3>
-        <a href="/">
+        <a href="/Home">
           {" "}
           <i className="fa fa-solid fa-arrow-right-from-bracket"></i> Log out
         </a>

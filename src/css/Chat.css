@@ -2,16 +2,18 @@
   display: none;
   position: fixed;
   z-index: 100;
+  margin-top: 1rem;
   bottom: 0;
   right: 0;
   width: 20rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 1.5rem;
   filter: drop-shadow(var(--lorem-academy-black) 0 0 5px);
 
   & .chat-header {
     align-items: center;
     width: 100%;
+    border-radius: .5rem .5rem 0 0;
     padding: .5rem;
     background-color: var(--lorem-academy-white);
     & img {
@@ -51,23 +53,33 @@
     display: flex;
     gap: 1rem;
 
+    border-radius: 0 0 .5rem .5rem;
     width: 100%;
     background-color: var(--lorem-academy-color);  
     padding: 1rem;
 
     & button {
-      font-size: 1.5rem;      
+      font-size: .7rem;      
       border: none;
       background-color: var(--lorem-academy-white);
-      padding: .1rem;
-      width: 3rem;
+      padding: .5rem;
+      display: flex;
+      flex-direction: row;
       border-radius: 1rem;
+      gap: .1rem;
 
       color: var(--lorem-academy-color);
 
       &:active {
         background-color: var(--lorem-academy-focus);
       }
+    }
+
+    & button:first-of-type {
+      color: darkgreen;
+    }
+    & button:nth-of-type(2) {
+      color: darkred;
     }
   }
 }
@@ -76,4 +88,23 @@
   display: block;
   animation: fadeInUp .5s .5s forwards;
   opacity: 0;
+}
+
+&:has(.fast-reply button:first-of-type:hover) .overlay-container {
+  opacity: 1;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0 ,0, 0.9);
+  mix-blend-mode: multiply;
+  transition: .2s;
+}
+
+&:has(.fast-reply button:first-of-type:hover) .chat-pop-container::before {
+  content: "Hoe interessant dat ook klinkt gerrie, moeten we ons aan de opdracht houden!";
+  color: var(--lorem-academy-white);
+  position: absolute;
+  top: -50px;
 }

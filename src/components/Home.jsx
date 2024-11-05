@@ -12,6 +12,7 @@ const Home = () =>{
         <Feed />  
           <RightBar />
       </section>
+      <div className="overlay-container"></div>
     </>
   )
 }

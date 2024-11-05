@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<h6>Developed with: React. I created this project to practice more with the useState, multiple data and reaction.</h6>
+<h5>This project was developed for my own personal educational growth</h5>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <img src="https://github.com/user-attachments/assets/2338b4e1-5e6a-4e1a-b43e-f8751183bd42" alt="Lorem Academy Logo">
+<img width="1512" alt="Scherm­afbeelding 2024-11-05 om 11 42 12" src="https://github.com/user-attachments/assets/9b86b8e8-39a2-4139-96ed-3cf1516807c0">
 
-## Available Scripts
+<p><b>Lorem Academy</b> is a teacher simulator demo that lets users explore a custom-built platform designed specifically for teachers This platform combines features of popular platforms like Teams and Brightspace, offering teachers a space to communicate, collaborate, and share messages With <b>Lorem Academy</b>, teachers can post updates, engage chats, and make important announcements, all within one  environment. These tools are crafted to reduce the workload on teachers while enhancing the educational experience for students through improved organization. The platform  provides a unique experience, so teachers focus on what they do best: teaching.</p>
+<br>
+<img src="https://github.com/user-attachments/assets/cace8494-ac27-429c-8032-cc4258735621" alt="Technologies Used">
 
-In the project directory, you can run:
+<div>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="60" height="60"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/>
+</div>
 
-### `npm start`
+<img src="https://github.com/user-attachments/assets/46166c84-69df-4761-b622-992caff75a9e" alt="Features">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Feature | Description |
+| :-- | :--- |
+| Log in | Login only works with the right username and password, showing the user feedback |
+| Dynamic Feed | Feed loads dynamic posts from its database |
+| Dynamic Meetings | Upcoming meetings Peter is supposed to attend |
+| Adding-and-removel subjects | At the schedule route, you can remove and add subjects for the week | 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://github.com/user-attachments/assets/722a10b4-15bd-4f51-a06d-036ccdea7031" alt="Installation">
 
-### `npm test`
+<p>Feel free to install the project. Here's a stepy by step guide to do so.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://github.com/user-attachments/assets/aa9f5f9c-de49-4d44-8915-c1e3946984bc" alt="Clone Repository">
 
-### `npm run build`
+```BASH
+git clone https://github.com/AliAhmed205/pawpal.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://github.com/user-attachments/assets/262ad07c-ef40-4b94-8ab5-550c99e1c6e2" alt="Change Directory">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```BASH
+cd lorem-academy
+```
 
-### `npm run eject`
+<img src='https://github.com/user-attachments/assets/e53e59fb-1e72-4c4e-96de-5c3add6146f0' alt='Install dependencies'>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```BASH
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://github.com/user-attachments/assets/8b8a7a86-720a-4330-ae14-34566fd4b2c1" alt="Run the project">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```BASH
+npm start
+```
 
-## Learn More
+## <img src="https://github.com/user-attachments/assets/27d16a9f-399b-4a6b-bebb-39f32b3a9187" alt="Author">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was designed and developed by Ali Ahmed. An original <b>© It's by Ali</b>
 
-### Code Splitting
+<img width="100" src="https://github.com/user-attachments/assets/2f3e41ad-4efa-4ef7-9f25-f162d298d426" alt="License">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<p>Copyright © 2024 Ali Ahmed</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p>This project has an MIT license</p>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

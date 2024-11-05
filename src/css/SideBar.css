@@ -97,7 +97,8 @@
 
 .rightbar-container {
   width: max-content;
-  width: 100%;
+  width: 356px;
+  min-width: 356px;
 
 
 

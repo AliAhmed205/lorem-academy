@@ -29,7 +29,7 @@ const RightBar = () => {
         <h2> <i className="fa fa-regular fa-comment"></i> Chat</h2>
         {sortedPostData.map((post) =>( 
 
-        <button type="button" className="user e_flex">
+        <button type="button" className="user e_flex" key={post.id}>
           <img src={post.photoUrl} alt={post.firstname} />
           <h5>{post.firstname} {post.surname}</h5>
         </button>

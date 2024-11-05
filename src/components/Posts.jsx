@@ -9,7 +9,8 @@ const Posts = ({
   postPhoto, 
   postDescription, 
   likes: addLikes, 
-  saved 
+  saved,
+  onLike
 
 }) => {
 
@@ -20,6 +21,7 @@ const Posts = ({
     if (!geliket) {
     setLikes(liked + 1)
     setGeliket(true)
+      if (onLike) onLike()
     } else {
       setLikes(liked - 1)
       setGeliket(false)
@@ -62,20 +64,8 @@ const Posts = ({
             <i className="fa-solid fa-bookmark"></i> Opslaan
           </button>
         </div>
-        {/* <hr /> */}
       </div>
     </div>
-     {/* <article className="post-something c_flex">
-     <div className="d_flex">
-       <img src="/images/user-peter.webp" alt="Peter Baan profielfoto" />
-       <div className="reageer-container d_flex">
-         <input type="text" name="post-message" placeholder="Reageren" />
-         <button>
-           <i className="fa-solid fa-paper-plane"></i>
-         </button>
-       </div>
-     </div>
-   </article> */}
    </article>
  </>
 

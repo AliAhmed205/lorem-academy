@@ -5,7 +5,7 @@
   height: 100vh;
   max-width: 415px;
   min-width: 500px;
-  background-color: ghostwhite;
+  background-color: var(--lorem-academy-white);
   position: absolute;
   right: 0;
   transition: .5s;

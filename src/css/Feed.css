@@ -9,7 +9,7 @@
 
 
   & .post-something {
-    background-color: ghostwhite;
+    background-color: var(--lorem-academy-white);
     height: fit-content;
     padding: .8rem 0;
     border-radius: 1rem; 
@@ -63,7 +63,7 @@
 
 .feed-posts {
   margin: 1rem 0;
-  background-color: ghostwhite;
+  background-color: var(--lorem-academy-white);
   padding: 1rem;
   border-radius: 1rem;
   transition: .2s;

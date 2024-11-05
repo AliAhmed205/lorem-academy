@@ -10,7 +10,8 @@ const MissionNote = () => {
           <p>
             Vandaag ben jij voor een dag docent. Je krijgt daarom ook een
             opdracht mee! Het rooster van de <b>STUDENTEN</b> moet aangepast
-            worden. Maar first things first, probeer maar eerst in te loggen.
+            worden. Maar first things first, probeer maar eerst in te loggen. 
+            <b> Inloggegevens staan hier links</b>
           </p>
         </section>
       </section>
